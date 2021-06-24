@@ -24,6 +24,7 @@ export const styles = StyleSheet.create({
     },
     category: {
         fontFamily: theme.fonts.text400,
+        color: theme.colors.highlight,
         fontSize: 13,
         marginRight: 24
     },
@@ -51,6 +52,15 @@ export const styles = StyleSheet.create({
         fontSize: 13,
         marginLeft: 7,
         marginRight: 24
+    },
+    guilIconContainer: {
+        height: 68,
+        width: 64,
+        borderRadius: 8,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginRight: 20
+
     }
 
 })
